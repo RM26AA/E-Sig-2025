@@ -52,6 +52,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				signature: {
+					primary: 'hsl(var(--signature-primary))',
+					secondary: 'hsl(var(--signature-secondary))',
+					accent: 'hsl(var(--signature-accent))',
+					surface: 'hsl(var(--signature-surface))',
+					'surface-hover': 'hsl(var(--signature-surface-hover))',
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -67,6 +74,19 @@ export default {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-secondary': 'var(--gradient-secondary)',
+				'gradient-accent': 'var(--gradient-accent)',
+			},
+			boxShadow: {
+				'signature': 'var(--shadow-signature)',
+				'card-soft': 'var(--shadow-card)',
+				'button-glow': 'var(--shadow-button)',
+			},
+			fontFamily: {
+				'signature': ['Dancing Script', 'Great Vibes', 'Alex Brush', 'Allura', 'Parisienne', 'cursive'],
 			},
 			keyframes: {
 				'accordion-down': {
