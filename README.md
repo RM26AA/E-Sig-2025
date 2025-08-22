@@ -1,4 +1,53 @@
-# Welcome to your Lovable project
+# Digital Signature Creator
+
+A Python desktop application that generates personalized digital signatures.
+Users can enter a name, choose from multiple fonts, adjust font size, select ink color, pick a background (white or transparent), and apply style effects (bold, shadow, underline). The signature can be previewed in real-time and saved as a PNG image.
+
+## ✨ Features
+
+- 🎨 Multiple font options (TTF files)
+- 🔠 Adjustable font size
+- 🖌️ Custom ink color picker
+- 🪄 Style effects: Bold, Shadow, Underline
+- 🖼️ White or transparent background
+- 👀 Real-time signature preview
+- 💾 Save as PNG
+
+## 🛠️ Installation
+
+1. Clone the repository:
+```
+git clone https://github.com/yourusername/digital-signature-creator.git
+cd digital-signature-creator
+```
+
+2. Install dependencies:
+```
+pip install pillow
+```
+- (Tkinter comes pre-installed with Python, no extra install needed)
+
+3. Add your .ttf font files to the project folder.
+Update the placeholders in the code (Font2.ttf, Font3.ttf, etc.) with your font filenames.
+
+## ▶️ Usage
+
+Run the app with:
+
+```
+python signature_app.py
+```
+
+1. Enter your name.
+2. Choose a font, font size, color, and background.
+3. Apply style effects if desired.
+4. Preview the signature in real-time.
+5. Save as a PNG image.
+
+## 📜 License
+- This project is licensed under the MIT License.
+
+# Lovable project
 
 ## Project info
 
