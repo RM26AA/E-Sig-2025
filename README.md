@@ -8,7 +8,7 @@ Users can enter a name, choose from multiple fonts, adjust font size, select ink
 - 🎨 Multiple font options (TTF files)
 - 🔠 Adjustable font size
 - 🖌️ Custom ink color picker
-- 🪄 Style effects: Bold, Shadow, Underline
+- 🤖 Style effects: Bold, Shadow, Underline
 - 🖼️ White or transparent background
 - 👀 Real-time signature preview
 - 💾 Save as PNG
